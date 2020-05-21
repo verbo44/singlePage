@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Art</title>
+  </head>
+  <body>
+
+    <div id="head" class="header">
+
+      <div class="navigation">
+
+
+
+        <div class="desktop-navigation">
+          <ul class="nav">
+            <li class="nav-link"><a href="#about">About me</a></li>
+            <li class="nav-link"><a href="#gallery-container">Gallery</a></li>
+            <li class="nav-link"><a href="#contact-container">Contact</a></li>
+          </ul>
+        </div>
+
+        <div id="myLinks" class="toggle-nav">
+          <ul class="menu">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#gallery-container">Gallery</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+          </ul>
+        </div>
+
+        <a href="javascript:void(0);"><div class="nav-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div></a>
+
+
+      </div>
+
+      <div class="logo"><h1 class="name">A_artirl</h1></div>
+
+    </div>
+
+    <div class="banner darken-pseudo">
+      <video autoplay muted loop id="myVideo">
+          <source src="./assets/poster_video.mp4" type="video/mp4">
+      </video>
+      <div class="video-paragh-box">
+          <p class="video-paragh">Earth without "Art" is just "eh"</p>
+      </div>
+    </div>
+
+  <div class="main-container">
+
+    <div id ="about" class="aboutme-container">
+
+      <h2 class="aboutme-heading">About me</h2>
+
+      <p class="about-me"><img id="aboutme-image-1" class="aboutme-picture-size" src="./assets/gyor.jpg" alt="gyor">I was born in 1994 in Győr, Hungary. From young age
+        i was interested in art in many forms, but I only started to show serious interest around my teenager years.
+        <img id="aboutme-image-2" class="aboutme-picture-size" src="./assets/anna.jpg" alt="artist">After graduating high school I intented to go to university and study biology,
+        but after 2 years I left and moved to Ireland. I fell in love with the beauty of the country side.
+        I started to sell my pantings in the famous Ha'Penny market <img id="aboutme-image-3" class="aboutme-picture-size" src="./assets/hapenny.jpg" alt="hapenny"> in the Grand social Dublin.
+        And that's how my art journey began...</p>
+
+    </div>
+
+    <div class="button-container">
+      <p class="button-info">Show Gallery<p>
+      <div id="showBtn" class="arrow-down">
+        <p><i class="arrow down"></i></p>
+      </div>
+    </div>
+
+    <div id="gallery-container" class="gallery">
+
+      <div class="gallery-heading">My Gallery</div>
+
+      <div class="art-container">
+
+        <div class="row">
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 1.jpg" alt="picture1">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 2.jpg" alt="picture2">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 3.jpg" alt="picture3">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 4.jpg" alt="picture4">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 5.jpg" alt="picture5">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 6.jpg" alt="picture6">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 7.jpg" alt="picture7">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+          <div class="item-box">
+
+            <div class="pic-box">
+              <img id="pic-size" src="./assets/picture 8.jpg" alt="picture8">
+            </div>
+            <p>Size: </p>
+            <p>Price: 19.90eur</p>
+            <p class="buy">Buy</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="button-container">
+      <p class="button-info">Show Contact<p>
+      <div id="showBtn-2" class="arrow-down">
+        <p><i class="arrow down"></i></p>
+      </div>
+    </div>
+
+    <div id="contact-container" class="contact">
+
+      <div class="contact-header">
+        <h2>Contact</h2>
+        <p>Thank you for visiting my website. If you have any queries please do not hesitate to contact me!
+        You can see my mobile number and e-mail address below and also can send me a quick message by the application.</p>
+      </div>
+
+      <div class="tel-num">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>089 123 5445</p>
+      </div>
+
+      <div class="email">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <p>art-a@gmail.com</p>
+      </div>
+
+      <div class="form">
+        <p>Quick Message</p>
+        <form id="quick-message" action="./contact.html" method="POST">
+          <label for="visitorname">Name: </label>
+          <input type="text" id="visitorname" name="visitorname" placeholder=" your name...">
+          <br>
+          <label for="visitoremail">E-mail: </label>
+          <input type="text" id="visitoremail" name="visitoremail" placeholder=" your email...">
+          <br>
+          <label for="visitormessage">Your message: </label>
+          <br>
+          <textarea id="visitormessage" name="visitormessage" rows="5" cols="30" placeholder=" type your message here..."></textarea>
+          <br>
+          <input type="submit" value="Send">
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <div class="button-container">
+      <p class="button-info">Back to the top<p>
+      <a href="#head"><div id="showBtn-3" class="arrow-down">
+        <p><i class="arrow up"></i></p>
+      </div></a>
+    </div>
+
+  </div>
+
+  <script src="./app.js"></script>
+  </body>
+</html>
